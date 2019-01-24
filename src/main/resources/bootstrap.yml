@@ -1,0 +1,10 @@
+spring:
+  profiles:
+    active: development
+  application:
+    name: Api-Gateway
+  cloud:
+    config:
+      uri: http://INPUHJPC04133:5055
+server:
+  host: INPUHJPC04136
